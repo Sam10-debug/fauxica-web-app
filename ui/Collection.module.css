@@ -1,0 +1,38 @@
+.mainDiv{
+	padding-block: 1rem;
+}
+.heading{
+	text-align: center;
+	padding-block: 1rem;
+}
+.grid{
+	width: 80%;
+	margin-inline: auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+	place-items: center;
+	place-content: center;
+	grid-gap: 4rem;
+}
+.summer{
+	font-size: 20px;
+	font-weight: 600;
+}
+.btn{
+	border: 1px solid black;
+	padding: 5px;
+	width: 80%;
+	cursor: pointer;
+	font-weight: 600;
+}
+.btn:hover{
+	transform: scale(1.1);
+	transition: all ease-in-out 1s;
+}
+.div{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 10px;
+	align-items: center;
+}

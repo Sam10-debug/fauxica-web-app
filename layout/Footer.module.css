@@ -1,0 +1,56 @@
+.footer{
+	display: flex;
+	gap: 10px;
+	padding: 1rem 4rem;
+	border-top: 1px solid black;
+}
+.footer ul{
+	list-style: none;
+}
+.footer>div{
+	flex: 2;
+}
+.footer>ul{
+	flex: 1;
+	line-height: 200%;
+}
+.footer input{
+	padding: 3px;
+}
+.footer button{
+	padding: 3px;
+	background-color: black;
+	color: white;
+	font-weight: 600;
+}
+.faux{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.subscribe{
+	display: flex;
+	flex-direction: column;
+	gap:2rem;
+}
+.mail{
+	display: flex;
+	gap:10px;
+}
+@media screen and (max-width:768px){
+	.footer{
+		flex-direction: column;
+		/* align-items: center; */
+	}
+	.subscribeText,.subscribeP{
+		text-align: center;
+	}
+	.faux{
+		align-items: center;
+	}
+	.footer ul{
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+}
