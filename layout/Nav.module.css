@@ -39,14 +39,15 @@
 	.hamburger{
 		display: flex;
 		flex-direction: column;
-		/* gap:5px; */
+		height: 10px;
+		justify-content: space-between;
 		left: 0;
 		top: 2px;
 		position: fixed;
 		z-index: 999;
 	}
 	.hamburger>svg{
-		margin-block: 3px;
+		/* margin-block: 3px */
 	}
 	.logo{
 		display: none;
