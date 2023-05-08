@@ -20,19 +20,20 @@ a{
 .show{
 	transform: rotate(45deg);
 	position: relative;
-	top: 5px;
+	top: 6px;
 	left: 1px;
 }
 .showw{
 	transform: rotate(-45deg);
 	position: relative;
-	bottom: 2px;
+	bottom: 6px;
 }
 .remove{
 	display: none;
 }
 .showNav{
 	transform: translateX(0%);
+	transition: all ease-in-out 1s;
 }
 @media screen and (max-width:768px){
 	nav{
