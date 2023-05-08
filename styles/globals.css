@@ -25,6 +25,8 @@ a{
 }
 .showw{
 	transform: rotate(-45deg);
+	position: relative;
+	bottom: 2px;
 }
 .remove{
 	display: none;
